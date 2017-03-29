@@ -1,0 +1,12 @@
+@charset="utf-8";
+
+.wrap{
+	width:50rem;
+	margin: 0 auto;
+}
+p{
+	font-family: "微软雅黑",arial,sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.618;
+}
