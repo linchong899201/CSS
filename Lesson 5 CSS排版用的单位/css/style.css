@@ -1,0 +1,33 @@
+@charset="utf-8";
+
+.wrap{
+	width:50rem;
+	margin: 0 auto;
+}
+p{
+	font-family: "微软雅黑",arial,sans-serif;
+}
+
+.px{
+	font-size: 18px;
+}
+
+.em{
+	font-size: 1.125em;
+}
+
+.rem{
+	font-size: 1.125rem
+}
+
+.with_units{
+	line-height: 1.5em;
+}
+
+.without_units{
+	line-height: 1.5; 
+}
+
+.vw{
+	font-size: 2vw;
+}
