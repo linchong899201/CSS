@@ -1,0 +1,9 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	background-image: url('../images/body-bg.png');
+	background-repeat: repeat;
+	background-position:left top;
+}
