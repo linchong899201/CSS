@@ -1,0 +1,25 @@
+.wrapper{
+	width: 60rem;
+	margin:0 auto;
+	background-color:black;
+}
+
+.child_one{
+	background-color: blue;
+	height: 10rem;
+	width: 50%;
+	float: left;
+}
+
+.child_two{
+	background-color: red;
+	height: 10rem;
+	width: 50%;
+	clear:left;
+}
+
+.child_three{
+	background-color: green;
+	height: 10rem;
+	width: 100%;
+}

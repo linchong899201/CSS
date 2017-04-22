@@ -1,0 +1,33 @@
+.wrapper{
+	width: 60rem;
+	margin:0 auto;
+	background-color:black;
+}
+
+.child_one{
+	background-color: blue;
+	height: 30rem;
+	width: 50%;
+	margin:0 auto;
+	position: relative;
+}
+
+.child_two{
+	background-color: red;
+	height: 10rem;
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.child_three{
+	background-color: green;
+	height: 10rem;
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}

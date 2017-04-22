@@ -1,0 +1,39 @@
+.wrapper{
+	background-color: #000;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 60rem;
+	height: 30rem;
+}
+
+.box{
+	height: 25rem;
+	width: 25rem;
+	background-color: red;
+	display: inline-block;
+	margin: 20px;
+}
+
+.relative_child{
+	position: relative;
+}
+
+.absolute_child{
+	position: absolute;
+	top: 20rem;
+	right: 200rem;
+}
+
+.static_child{
+	position: static;
+}
+
+.fixed_child{
+	background-color: blue;
+	position: fixed;
+	bottom: 0rem;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 2rem;
+}
