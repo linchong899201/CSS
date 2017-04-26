@@ -1,0 +1,24 @@
+body{
+  color: #222;
+
+}
+
+.wrapper{
+  width: 60rem;
+  margin: 20px auto;
+}
+
+h1::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  margin-right:20px; 
+  background-color: green;
+}
+
+ul.prices li::before{
+  content: "￥";
+  color:red;
+}
