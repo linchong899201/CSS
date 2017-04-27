@@ -1,0 +1,23 @@
+body{
+  font-family: "微软雅黑";
+  color: #222;
+}
+
+.wrapper{
+  width: 60rem;
+  margin: 20px auto;
+}
+
+ul.todo li{
+  margin-top: 3px;
+}
+
+ul.todo li.checked::after{
+  content:'';
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../images/check.png);
+  margin-left: 1.25rem;
+  vertical-align: bottom;
+}
