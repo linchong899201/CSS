@@ -1,0 +1,27 @@
+body{
+  font-family: "微软雅黑";
+  color: #222;
+}
+
+.wrapper{
+  width: 60rem;
+  margin: 20px auto;
+  padding-top:20px;
+}
+
+p{
+	line-height: 28px;
+}
+p.letter::first-letter{
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 0;
+	font-family: "微软雅黑";
+	margin-right: 5px;
+}
+
+p.line::first-line{
+	font-weight: bold;
+	color:blue;
+	font-style: italic;
+}
