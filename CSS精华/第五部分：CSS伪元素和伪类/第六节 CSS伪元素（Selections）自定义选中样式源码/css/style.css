@@ -1,0 +1,19 @@
+body{
+  font-family: "微软雅黑";
+  color: #222;
+}
+
+.wrapper{
+  width: 60rem;
+  margin: 20px auto;
+  padding-top:20px;
+}
+
+h1{
+	color:chocolate;
+}
+
+h1::selection,p::selection{
+	background-color: chocolate;
+	color: #fff;
+}
