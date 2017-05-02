@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CSS伪元素（Backdrop）自定义背景</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-2.2.4.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<dialog id="dialog">
+				<p>CSS伪元素::Backdrop实现自定义背景</p>
+				<button class="modalClose">关闭</button>
+			</dialog>
+			<div class="container">
+				<p>阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬.
+				</p>
+				<p>阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿道夫阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬阿斯蒂芬.</p>
+				<button class="btnModal">点击打开对话框</button>
+			</div>
+		</div>
+		<script>
+			var modal = document.getElementById("dialog");
+			$(".btnModal").click(function(){
+				modal.showModal();
+			});
+			$(".modalClose").click(function(){
+				modal.close();
+			})
+		</script>
+	</body>
+</html>

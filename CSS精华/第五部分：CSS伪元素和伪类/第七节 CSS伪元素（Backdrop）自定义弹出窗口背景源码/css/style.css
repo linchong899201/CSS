@@ -1,0 +1,28 @@
+body{
+  font-family: "微软雅黑";
+  color: #222;
+}
+
+.wrapper{
+  width: 60rem;
+  margin: 20px auto;
+  padding-top:20px;
+}
+
+button:focus{
+	outline:0;
+}
+.modalClose,.btnModal{
+	padding:10px;
+	background-color:darkgreen;
+	color:white;
+	border:none;
+	border-radius:8px;
+}
+
+
+dialog::backdrop{
+	position:fixed;
+	top:0px;right:0px;bottom:0px;left:0px;
+	background:rgba(255,0,0,0.8);
+}
